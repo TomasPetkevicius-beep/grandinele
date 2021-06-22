@@ -1,0 +1,1 @@
+<footer><?php echo '&copy;'.date('Y');?></footer>

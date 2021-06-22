@@ -1,0 +1,119 @@
+body{
+background-image: linear-gradient(90deg, #FFFFFF, #437CF6);
+}
+#front{
+  width: 5%;
+ height: 5%;
+}
+#logo{width: 10%;
+height: 10%;}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#cf {
+    position: relative;
+    top: 0;
+    float: right;
+    cursor: pointer;
+   }
+#kz {
+        position: relative;
+        top: 0;
+        float: right;
+        cursor: pointer;
+       }
+
+#cf1 {
+    display: none;    
+    background-color: lightyellow;
+    position: relative;
+    top: 0;
+    float: right;
+    padding: 5px;
+  border: 1px solid #666;
+  width: 25%;
+  height: 100%;
+  z-index: 1; 
+  cursor: pointer;
+   }
+
+   #inst {
+    display: none;    
+    background-color: lightyellow;
+    position: relative;
+    top: 0;
+    float: right;
+    padding: 5px;
+  border: 1px solid #666;
+  width: 25%;
+  height: 100%;
+  z-index: 1;  
+   }
+
+   .formbtn {
+        font-size: 15px;
+        background-color: gold;
+        border-radius: 5px;
+   }
+
+.content{
+    
+    position: absolute;
+    transition: 0.5s;
+    overflow: hidden;
+}
+h4{
+    color: #000000;
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #437CF6;
+    }
+    #quests {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .start a{
+        font-size: 1.125rem; 
+        letter-spacing: 0.02em; 
+        color: #000000;
+        text-transform: uppercase; 
+        text-decoration: none; 
+        padding: 28px 82px 25px; 
+        background-color: #437CF6;
+        border-radius: 5px; 
+        border-bottom: 4px solid black; 
+        margin-top: 40px; 
+        display: inline-block;
+        cursor: pointer;
+    }
+   
+
+
+/* Prisijungimo puslapis */
+
+#regform {
+    margin: 0 auto;
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+    flex-direction: column;
+}
+    footer{
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+    }
